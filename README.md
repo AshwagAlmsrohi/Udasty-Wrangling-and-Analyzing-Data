@@ -5,19 +5,18 @@ The dataset that you will be wrangling (and analyzing and visualizing) is the tw
 
 WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exclusively for you to use in this project. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. More on this soon.
 # Software Needed
-.Need to be able to work in a Jupyter Notebook.
+1/Need to be able to work in a Jupyter Notebook.
 
-.The following packages (libraries) need to be installed:
+2/The following packages (libraries) need to be installed:
+pandas.
 
-pandas
+NumPy.
 
-NumPy
+requests.
 
-requests
+tweepy.
 
-tweepy
-
-json
+json.
 
 # Enhanced Twitter Archive
 The WeRateDogs Twitter archive contains basic tweet data for all 5000+ of their tweets, but not everything. One column the archive does contain though: each tweet's text, which was used to extract rating, dog name, and dog "stage" (i.e. doggo, floofer, pupper, and puppo) to make this Twitter archive "enhanced." Of the 5000+ tweets, tweets with ratings only have beenfiltered for (there are 2356).
@@ -33,35 +32,35 @@ Udacity ran every image in the WeRateDogs Twitter archive through a neural netwo
 
 Key points to keep in mind when data wrangling for this project:
 
-.The project only need original ratings (no retweets) that have images. Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets.
+1/The project only need original ratings (no retweets) that have images. Though there are 5000+ tweets in the dataset, not all are dog ratings and some are retweets.
 
-.Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate your skills in data wrangling. 
+2/Assessing and cleaning the entire dataset completely would require a lot of time, and is not necessary to practice and demonstrate your skills in data wrangling. 
 
-.Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset.
+3/Therefore, the requirements of this project are only to assess and clean at least 8 quality issues and at least 2 tidiness issues in this dataset.
 
-.Cleaning includes merging individual pieces of data according to the rules of tidy data.
+4/Cleaning includes merging individual pieces of data according to the rules of tidy data.
 
-.The fact that the rating numerators are greater than the denominators does not need to be cleaned. This unique rating system is a big part of the popularity of # WeRateDogs.
+5/The fact that the rating numerators are greater than the denominators does not need to be cleaned. This unique rating system is a big part of the popularity of # WeRateDogs.
 
-.The project does not require gathering tweets beyond August 1st, 2017.
+6/The project does not require gathering tweets beyond August 1st, 2017.
 
 # Project Details
 
 The tasks in this project are as follows:
 
-.Data wrangling, which consists of:
+1/Data wrangling, which consists of:
 
-     Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
+   Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
 
-     Assessing data.
+   Assessing data.
 
-     Cleaning data.
+   Cleaning data.
 
-.Storing, analyzing, and visualizing your wrangled data
+2/Storing, analyzing, and visualizing your wrangled data
 
-.Reporting on:
+3/Reporting on:
 
-     Data wrangling efforts.
+   Data wrangling efforts.
 
-     Data analyses and visualizations.
+   Data analyses and visualizations.
 
