@@ -10,9 +10,13 @@ WeRateDogs downloaded their Twitter archive and sent it to Udacity via email exc
 .The following packages (libraries) need to be installed:
 
 pandas
+
 NumPy
+
 requests
+
 tweepy
+
 json
 
 # Enhanced Twitter Archive
