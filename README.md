@@ -49,19 +49,19 @@ Key points to keep in mind when data wrangling for this project:
 
 The tasks in this project are as follows:
 
-Data wrangling, which consists of:
+.Data wrangling, which consists of:
 
-Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
+     Gathering data (downloadable file in the Resources tab in the left most panel of your classroom and linked in step 1 below).
 
-Assessing data
+     Assessing data.
 
-Cleaning data
+     Cleaning data.
 
-Storing, analyzing, and visualizing your wrangled data
+.Storing, analyzing, and visualizing your wrangled data
 
-Reporting on
+.Reporting on:
 
-Data wrangling efforts
+     Data wrangling efforts.
 
-Data analyses and visualizations
+     Data analyses and visualizations.
 
